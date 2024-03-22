@@ -1,0 +1,123 @@
+h1{
+      list-style: none;
+      margin: 10px;
+      margin-top: 20px;
+      font-size: 40px;
+      font-weight: bold;
+      color: rgb(255, 251, 245);
+      background-color: rgb(124, 142, 142);
+      padding: 10px;
+      border-radius: 20px;
+      display:block;
+      box-sizing: border-box;
+      border: 5px solid rgb(241, 228, 52);
+      overflow-anchor: auto;
+      font-family: monospace;
+      text-align: center;
+      
+      
+}
+h1::first-letter{
+      color: rgb(230, 232, 222);
+      font-size: 40px;
+      font-weight: bold;
+}
+span{
+      color: rgb(244, 186, 12);
+    
+}
+span:hover{
+     color:orange;
+     
+}
+
+ol{
+      margin-left: 90px;
+      position:relative;
+      margin-top: 20px;
+
+}
+div{
+      margin-left:100px;
+
+}
+.icon{
+      margin-left: 100px;
+}
+i{
+      color: #746276;
+      background-color: rgb(241, 228, 52);
+      padding: 15px;
+      margin: 20px;
+      font-size: 80px;
+      box-sizing: border-box;
+      border-radius:190px;
+      border-bottom-right-radius:1px;
+      margin-top: 5px;
+      margin-left: 70px;
+      
+}
+i:hover{
+      color: azure;
+      
+      transition:3.s;
+}
+li{
+      list-style: none;
+      float:left;
+      margin: 40px;
+      margin-top: 20px;
+      font-size: 40px;
+      font-weight: bold;
+      color: rgb(255, 251, 245);
+      background-color: rgb(124, 142, 142);
+      padding: 10px;
+      border-radius: 20px;
+      box-sizing: border-box;
+      border: 5px solid rgb(241, 228, 52);
+      overflow-anchor: auto;
+      font-family: monospace;
+      margin-left: 9px;
+      
+
+}
+li:hover{
+      background-color: rgb(67, 40, 8);
+}
+li:first-letter{
+      color: aqua;
+}
+
+table,tr,th,td{
+      border: 5px solid orange;
+      border-collapse: collapse;
+      margin-left: 185px;
+      padding: 5px;
+      text-align: center;
+      font-family: monospace;
+      font-weight: bold;
+      font-size: 30px;
+      background-color: bisque;
+     
+}
+table,tr,th:hover{
+      background-color: rgba(208, 126, 26,0.3);
+      border: 5px solid rgb(140, 79, 138);
+      box-sizing: border-box;
+      border-radius: 20px;
+}
+img{
+      width: 290px;
+      height: 290px;
+      border-radius: 2px;
+      margin-left: 250px;
+      padding: 20px;
+      border-radius: 1px;
+      border-bottom-right-radius: 150px;
+      border-top-left-radius: 150px;
+
+      border: 10px solid rgb(144, 154, 154);
+}
+img:hover{
+      background-color:rgb(241, 228, 52);
+}
